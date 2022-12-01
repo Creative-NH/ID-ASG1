@@ -1,0 +1,156 @@
+body{
+    background-color:rgb(50,50,50);
+}
+.main-container{
+    display:flex;
+    justify-content:end;
+}
+.column{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.box{
+    margin:20px;
+    height:400px;
+    width:400px;
+    background-size:cover;
+    display:flex;
+    align-items:flex-end;
+    text-decoration:none;
+}
+.box-content{
+    text-shadow: 1px 1px 5px black;
+    margin-left: 10px;
+    color:white;
+    z-index:1;
+}
+.pinned-img{
+    position:fixed;
+    height:620px;
+    width:420px;
+    left:3%;
+    bottom:16px;
+    font-size:18px;
+    text-shadow: 1px 1px 10px grey;
+    background-image:url("https://i.etsystatic.com/31717961/r/il/ae40e1/3796349467/il_fullxfull.3796349467_5aob.jpg");
+    background-size:cover;
+    color:white;
+    z-index: 9;
+}
+h1{
+    font-size:50px;
+    color:rgb(200,200,200,1)
+}
+header{
+    background-color:rgb(255,255,255,0.9);
+    position:fixed;
+    text-align: center;
+    top:0;
+    left:0;
+    width:100%;
+    z-index: 10;
+}
+nav{
+    position: absolute;
+    text-align: left;
+    top:100%;
+    left:0;
+    background-color:rgb(255,255,255,0.9);
+    width:100%;
+    transform:scale(1,0);
+    transform-origin:top;
+    transition:transform 400ms ease-in-out;
+}
+.nav-toggle:checked ~ nav{
+    transform:scale(1,1)
+}
+.nav-toggle:checked ~ nav a{
+    opacity:1;
+    transition:opacity 300ms ease-in-out 200ms;
+}
+.nav-toggle{
+    display:none;
+}
+.nav-toggle-label{
+    position:absolute;
+    top:0;
+    left:0;
+    margin-left:1em;
+    height:100%;
+    display:flex;
+    align-items:center;
+}
+.nav-toggle-label span,
+.nav-toggle-label span:before,
+.nav-toggle-label span:after{
+    display:block;
+    background:black;
+    height:2px;
+    width:2em;
+    border-radius:2px;
+    position:relative;
+}
+.nav-toggle-label span:before,
+.nav-toggle-label span:after{
+    content:"";
+    position:absolute;
+}
+.nav-toggle-label span:before{
+    bottom:8px;
+}
+.nav-toggle-label span:after{
+    top:8px;
+}
+nav ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+nav li{
+    margin-bottom:1em;
+    margin-left:1em;
+}
+nav a{
+    text-decoration:none;
+    color: black;
+    font-size:1.4rem;
+    opacity:0;
+    transition:opacity 200ms ease-in-out;
+}
+@media (min-width:1000px){
+    .pinned-blurb{
+        position:relative;
+        text-align:center;
+        top:370px;
+    }
+}
+@media (max-width:1000px){
+    .pinned-img{
+        display:flex;
+        width:100%;
+        height:25%;
+        left:0;
+        bottom:0;
+        background-image:none;
+        background-color:black;
+    }
+    .pinned-mobile{
+        content:url("resources/bannermobile.png")
+    }
+    .pinned-blurb{
+        align-self:center;
+    }
+    .box{
+        height:350px;
+        width:350px;
+    }
+    .box:hover{
+        height:400px;
+        width:400px;
+    }
+    .main-container{
+        align-items:center;
+        flex-direction:column;
+    }
+}
