@@ -20,7 +20,11 @@ The original site displays information about live events through rows containing
 ## Testing
 ## Credits
 ### Content
-Site content: https://www.queenonline.com
+Site Content:
+https://www.queenonline.com
+https://loudwire.com/queen-adam-lambert-2019-rhapsody-tour-dates/
+https://www.prnewswire.com/news-releases/queen--adam-lambert-return-to-rock-north-america-this-summer-300397729.html
+
 Navigation Menu: https://www.youtube.com/watch?v=8QKOaTYvYUA
 ### Media
 ### Acknowledgements
