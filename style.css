@@ -14,10 +14,16 @@ body{
     margin:20px;
     height:400px;
     width:400px;
+    border-radius: 20px;
     background-size:cover;
     display:flex;
     align-items:flex-end;
     text-decoration:none;
+}
+.box:hover{
+    height:410px;
+    width:410px;
+    margin:10px;
 }
 .box-content{
     text-shadow: 1px 1px 5px black;
@@ -49,6 +55,9 @@ h1{
         text-align:center;
         top:370px;
     }
+    .pinned-img{
+        border-radius:15px;
+    }
 }
 @media (max-width:1000px){
     .pinned-img{
@@ -69,10 +78,11 @@ h1{
     .box{
         height:350px;
         width:350px;
+        border-radius: 15px;
     }
     .box:hover{
-        height:400px;
-        width:400px;
+        height:360px;
+        width:360px;
     }
     .main-container{
         align-items:center;
