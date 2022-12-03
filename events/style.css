@@ -85,7 +85,6 @@ h1{
 }
 .popup{
     padding:10px;
-    height:100%;
     width:40%;
     top:15%;
     left:30%;
@@ -106,6 +105,10 @@ h1{
     .popup{
         width:70%;
         left:15%;
+        font-size:35px;
+    }
+    .button{
+        font-size:35px;
     }
 }
 @media (max-width:1250px) and (min-width:750px){
@@ -115,6 +118,7 @@ h1{
     .popup{
         width:55%;
         left:20%;
+        font-size:25px;
     }
     .video{
         width:400px;
