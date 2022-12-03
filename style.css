@@ -19,6 +19,7 @@ body{
     display:flex;
     align-items:flex-end;
     text-decoration:none;
+    font-family: 'Asul';
 }
 .box:hover{
     height:410px;
@@ -43,10 +44,15 @@ body{
     background-size:cover;
     color:white;
     z-index: 9;
+    font-family: 'Asul';
 }
 h1{
     font-size:50px;
-    color:rgb(200,200,200,1)
+    font-family:'Cormorant SC';
+    color:rgb(200,200,200,1);
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 
 @media (min-width:1000px){
