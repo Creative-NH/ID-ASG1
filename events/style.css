@@ -47,10 +47,10 @@ h2{
     margin-right:27px;
 }
 .event1{
-    background-image:linear-gradient(to top, rgba(50, 50, 50, 0.6), rgba(255, 255, 255, 0)),url("../resources/tour1.png")
+    background-image:linear-gradient(to top, rgba(50, 50, 50, 0.6), rgba(255, 255, 255, 0)),url("../images/tour1.png")
 }
 .event2{
-    background-image:linear-gradient(to top, rgba(50, 50, 50, 0.6), rgba(255, 255, 255, 0)),url("../resources/tour2.png")
+    background-image:linear-gradient(to top, rgba(50, 50, 50, 0.6), rgba(255, 255, 255, 0)),url("../images/tour2.png")
 }
 #popup1{
     display:none;

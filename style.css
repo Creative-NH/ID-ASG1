@@ -21,11 +21,6 @@ body{
     text-decoration:none;
     font-family: 'Asul';
 }
-.box:hover{
-    height:410px;
-    width:410px;
-    margin:10px;
-}
 .box-content{
     text-shadow: 1px 1px 5px black;
     margin-left: 10px;
@@ -40,7 +35,7 @@ body{
     bottom:16px;
     font-size:18px;
     text-shadow: 1px 1px 10px grey;
-    background-image:url("https://i.etsystatic.com/31717961/r/il/ae40e1/3796349467/il_fullxfull.3796349467_5aob.jpg");
+    background-image:url("images/banner.png");
     background-size:cover;
     color:white;
     z-index: 9;
@@ -62,7 +57,7 @@ h1{
     .pinned-blurb{
         position:relative;
         text-align:center;
-        top:370px;
+        top:390px;
     }
     .pinned-img{
         border-radius:15px;
@@ -88,10 +83,6 @@ h1{
         height:350px;
         width:350px;
         border-radius: 15px;
-    }
-    .box:hover{
-        height:360px;
-        width:360px;
     }
     .main-container{
         align-items:center;

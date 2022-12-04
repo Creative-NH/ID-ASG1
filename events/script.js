@@ -9,6 +9,8 @@ for (var i=0; i<b.length; i++){
 }
 document.getElementById("cross").onclick = function() {togglepopup("popup1")};
 document.getElementById("cross2").onclick = function() {togglepopup("popup2")};
+document.getElementById("overlay1").onclick = function() {togglepopup("popup1")};
+document.getElementById("overlay2").onclick = function() {togglepopup("popup2")};
 function togglepopup(id) {
     var x = document.getElementById(id);
     if (x.style.display == "none") {
