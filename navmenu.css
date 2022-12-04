@@ -81,7 +81,7 @@ nav a{
     }
     header{
         display:grid;
-        grid-template-columns:1fr auto minmax(600px, 1fr);
+        grid-template-columns:1fr auto minmax(600px, 1fr) 0.5fr;
     }
     .logo{
         grid-column:2/span 3;
