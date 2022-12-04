@@ -45,13 +45,18 @@ One issue I faced was that the promo image in the homepage covers site content o
 ## Credits
 ### Content
 Homepage: https://www.queenonline.com
+
 Albums Page: https://www.queenonline.com/music
+
 Events Page: https://loudwire.com/queen-adam-lambert-2019-rhapsody-tour-dates/ and https://www.prnewswire.com/news-releases/queen--adam-lambert-return-to-rock-north-america-this-summer-300397729.html
+
 
 Navigation Menu: https://www.youtube.com/watch?v=8QKOaTYvYUA
 ### Media
 Home Page: https://www.queenonline.com
+
 Albums Page: https://www.queenonline.com/music
+
 Events Page: https://ultimateclassicrock.com/queen-2019-set-list-tour-opening-night/ and https://www.avinteractive.com/news/lighting/shining-light-queen-adam-lambert-tour-12-10-2017/
 ### Acknowledgements
 -
