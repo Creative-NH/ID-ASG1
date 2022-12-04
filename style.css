@@ -46,6 +46,9 @@ body{
     z-index: 9;
     font-family: 'Asul';
 }
+.pinned-mobile{
+    display:none;
+}
 h1{
     font-size:50px;
     font-family:'Cormorant SC';
@@ -76,7 +79,7 @@ h1{
         background-color:black;
     }
     .pinned-mobile{
-        content:url("resources/bannermobile.png")
+        display:block;
     }
     .pinned-blurb{
         align-self:center;

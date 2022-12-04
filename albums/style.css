@@ -71,6 +71,9 @@ article{
 .video{
     width:560px;
     height:315px;
+    display:block;
+    margin:auto;
+    border:none;
 }
 #content{
     display:none;

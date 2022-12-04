@@ -92,8 +92,8 @@ h1{
     position:absolute;
     background-color:white;
 }
-.content{
-    text-align:center;
+.video{
+    border:none;
 }
 .text{
     font-family: 'Asul';
