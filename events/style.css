@@ -7,6 +7,10 @@ h1{
     font-family:'Cormorant SC';
     color:rgb(200,200,200,1);
 }
+h2{
+    font-family:'Cormorant SC';
+    padding-bottom:10px;
+}
 .main-container{
     display:flex;
     flex-direction:column;
@@ -97,6 +101,12 @@ h1{
 }
 .text{
     font-family: 'Asul';
+}
+.button{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:35%;
+    margin-right:35%;
 }
 @media (max-width:750px){
     .main-container{
